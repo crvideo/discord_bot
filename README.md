@@ -59,6 +59,15 @@ python discord_bot.py
 
 ```
 
+# options
+
+- --config (str)
+  - config files not in default path
+- --test_guilds (int)
+  - your servers id
+- --token
+  - your bot's token
+
 
 # Config file
 Put the config file in $HOME/.config/discord_query_bot.json
