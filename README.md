@@ -87,6 +87,30 @@ Put the config file in $HOME/.config/discord_query_bot.json
   
   
 
+# discord bot related
+
+[How to create a bot account](https://discordpy.readthedocs.io/en/stable/discord.html)
+
+[How to find server id](https://www.alphr.com/discord-find-server-id/)
+
+[How to use disnake to write a bot](https://github.com/DisnakeDev/disnake)
+
+[Quick start of minimal bot](https://docs.disnake.dev/en/latest/quickstart.html)
+
+[Examples of disnake](https://github.com/DisnakeDev/disnake/tree/master/examples)
+
+[Button](https://github.com/DisnakeDev/disnake/blob/master/examples/views/button/confirm.py)
+
+[Select](https://github.com/DisnakeDev/disnake/blob/master/examples/views/select/dropdown.py)
+
+Pay attention to:
+
+disnake.ui.View
+disnake.ui.Button
+disnake.ui.Select
+disnake.MessageInteraction
+
+
 
 # Acknowledgement
 
