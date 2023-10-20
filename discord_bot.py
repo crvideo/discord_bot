@@ -163,5 +163,15 @@ async def colour(inter,keyword):
     else:
         await inter.send(content="Can not found the keyword " + keyword)
 
+async def vr(inter,keyword):
+    #await inter.response.send_message("confirming",view=Confirm())
+    await inter.response.send_message("Searching " + keyword)
+    search_result = searchKeyword(keyword)
+    if search_result:
+        await inter.send(view=DropdownView(search_result.options,search_result.json_dict))
+    else:
+        await inter.send(content="Can not found the keyword " + keyword)
+
+        
 
 bot.run(cfg['token'])
